@@ -1,0 +1,20 @@
+[ServiceConfiguration]
+Port = "8080"
+Debug = true
+
+[LoggerConfiguration]
+Filename = "./logs/feitian.log"
+MaxSize = 10
+
+
+[PostgresConfiguration]
+Host = "127.0.0.1"
+Port = 6532
+User = "root"
+Password = "root"
+DBName = "feitian"
+
+[RedisConfiguration]
+Addr = "127.0.0.1:6779"
+Db = 1
+Password = ""
